@@ -63,7 +63,7 @@ Slightly More Detail
 ####################
 
 Docker (typically) runs privileged, and it's not too hard to engineer
-root-in-the-container becomimg root-outside-the-container.
+root-in-the-container becoming root-outside-the-container.
 
 This does tend to make security people twitchy, especially in
 traditional shared-server HPC models.
