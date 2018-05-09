@@ -52,10 +52,11 @@ environment."
 Docker's Security Model
 #######################
 
-.. image:: images/Dockerwhale.png
-
 .. image:: images/Dumpsterfire.gif
 
+.. note::
+
+ Thanks to Abbey Yacoe for putting together the gif.
 
 ----
 

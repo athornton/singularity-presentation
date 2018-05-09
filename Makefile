@@ -1,7 +1,7 @@
 all:	out/index.html
 
 out/index.html:	Makefile talk.rst css/talk.css css/talk_dark.css \
- images/Dumpsterfire.gif images/Dockerwhale.png images/sp-adam.png
+ images/Dumpsterfire.gif images/sp-adam.png
 	hovercraft talk.rst out
 
 clean:
