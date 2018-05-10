@@ -76,8 +76,9 @@ Singularity attempts to address this.
 What Singularity Does
 #####################
 
-Runs a "container" where the owning user is the owning user and where the
-network is the system network context.
+Runs a "container" where the user running the container root process is
+the (unprivileged) user on the host and the network is the system
+network context.
 
 * The filesystem and the process tree are apparently rooted in the
   container context.
@@ -112,7 +113,8 @@ Singularity has three modes:
   Effectively, pretty much useless.
 
 * Capabilities.  Obviously the way to do it, also a hard problem and
-  sysadmins don't understand them, so mostly a future research topic.
+  sysadmins don't understand them, so mostly a future research topic for
+  Singularity.
 
 * Or good old setuid binaries for mounting the image container, for
   setting up the namespaces, and for bind-mounting local disks into the
